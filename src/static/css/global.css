@@ -1,0 +1,13 @@
+body{
+    background: white;
+}
+
+.tmpl{
+    margin-bottom: 50px;
+}
+
+.bfc::after {
+    content: "";
+    display: block;
+    clear: both;
+}
